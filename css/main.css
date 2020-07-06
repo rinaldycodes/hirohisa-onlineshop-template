@@ -1,0 +1,284 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* NAVBAR AREA  */
+.navbar .navbar-brand{
+    color: white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: white;
+    font-size: bold;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.discount{
+    text-align: center;
+    color: yellow;
+    border: 1px solid white;
+    font-size: bold;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.discount:hover{
+    text-align: center;
+    background: white;
+    color: #ff886d;
+    border: 1px solid white;
+    font-size: bold;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+.navbar .navbar-nav .nav-item.active .nav-link{
+    color: white;
+}
+
+/* BANNER AREA */
+.section-banner-area{
+    overflow: hidden;
+}
+
+.carousel-inner .carousel-item img {
+    height: 80vh;
+}
+
+.carousel-control-prev .carousel-control-prev-icon{
+    background-color: #ff886d;
+    border-radius: 30%;
+    border: 5px solid;
+    padding: 15px;
+}
+
+.carousel-control-next .carousel-control-next-icon{
+    background-color: #ff886d;
+    border-radius: 30%;
+    border: 5px solid;
+    padding: 15px;
+}
+
+.carousel-indicators li{
+    height: 10px;
+}
+
+.carousel-indicators li.active{
+    background-color: #ff886d;
+    height: 10px;
+}
+/* END BANNER AREA */
+
+/* NEW PRODUCT AREA */
+.new-product-area .new-product-title h2{
+    font-weight: 700;
+}
+.new-product-area .new-product-items .new-product-card{
+    margin: 1.5rem .5rem;
+}
+.new-product-area .new-product-items .new-product-card:hover{
+    border: 1px solid #ff886d;
+    margin: 1.5rem .5rem;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.new-product-area .new-product-items .new-product-card .product-button .btn-cart{
+    border: 1px solid grey;
+}
+
+.new-product-area .new-product-items .new-product-card .product-button .btn-cart:hover{
+    border: 1px solid #ff886d;
+    color: #ff886d;
+}
+/* END NEW PRODUCT AREA */
+
+/* PRODUK IMG AREA */
+.product-transaction .product-name h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.product-transaction .product-price b{
+    font-size: 16px;
+    border: 1px solid #ff886d;
+    border-radius: 5px;
+    color: #ff886d;
+    padding: 5px;
+}
+
+.product-transaction .product-descriptions h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.product-img-area img{
+    height: 70vh;
+    width: 100%;
+}
+
+/* SHOPPING CART AREA */
+.cart-area .cart-title h1{
+    font-size: 26px;
+}
+
+section.cart-area .col-md-8.cart-item > div > div.col-2 > input[type=number]{
+    width: 100%;
+}
+
+body > main > section.cart-area > div > div > div.col-md-8.cart-item > div.table-responsive > table > tbody > tr:nth-child(2) > td:nth-child(3) > input[type=number]{
+    width: 50px;
+}
+
+section.cart-area .buttons-belanja-lagi{
+    font-weight: 900;
+}
+
+section.cart-area .buttons-update-keranjang{
+    font-weight: 900;
+}
+
+.transaction-product{
+    margin: 1rem 0;
+}
+.transaction-product h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.transaction-product .btn-detail-pesanan{
+    padding: .5rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: #ff886d;
+    border-radius: 10px;
+    border: 1px solid #ff886d;
+}
+
+.transaction-product .btn-detail-pesanan:hover{
+    padding: .5rem;
+    border: #ff886d 1px solid;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ff886d;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: .8s ease;
+}
+
+.transaction-product .btn-batalkan-pesanan{
+    padding: .5rem;
+    border: 1px solid #ff886d;
+    display: block;
+    background: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    color: #ff886d;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.transaction-product .btn-batalkan-pesanan:hover{
+    padding: .5rem;
+    border: 1px solid #ff886d;
+    display: block;
+    background: #ff886d;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+/* END SHOPPING CART AREA */
+
+/* START DETAIL PESANAN AREA */
+.detail-pesanan-content .form-penerima-pesanan h1{
+    font-size: 26px;
+    font-weight: 600;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    
+}
+
+.detail-pesanan-content .form-penerima-pesanan .pesan-untuk-admin{
+    margin: 30px 0;
+}
+
+.detail-pesanan-content .form-penerima-pesanan .pesan-untuk-admin h2{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+
+.detail-pesanan .total-harga, .detail-pesanan h6{
+    font-size: 22px;
+}
+/* END DETAIL PESANAN AREA */
+
+
+/* GLOBALS CSS */
+.background-primary{
+    background: #ff886d;
+}
+
+.color-primary{
+    color: #ff886d;
+}
+
+.btn-cta{
+    background: #ff886d;
+    color: whitesmoke;
+}
+
+.btn-cta:hover{
+    background:  white;
+    border: #ff886d 1px solid;
+    font-weight: 600;
+    color: #ff886d !important;
+}
+
+.social-media img{
+    border-radius: 50%;
+    width: 40;
+}
+
+.icon{
+    width: 20px;
+}
+
+.icon-sm{
+    width: 15px;
+}
+
+.box {
+    -webkit-box-shadow: -1px 3px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 13px 0px rgba(0,0,0,0.75);
+    padding: 1rem;
+    border-radius: 10px;
+}
+/* END GLOBALS CSS */
